@@ -115,8 +115,31 @@
 <hr>
 <img width="50%" src="img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg" alt="">
 
+<hr>
+<!--form預設為get-->
+<h2>表單填寫</h2>
+<form action="" method="get">
+    <!--label的for指向input的id(前端用)，name(後端用)-->
+    <label for="username">帳號:&nbsp</label>
+    <input type="text" id="username" name="username"><br>
 
+    <label for="password">密碼:&nbsp</label>
+    <input type="password" id="password" name="password"><br>
 
+    <!--提交的按鈕，get:網址會出現對應的字，post:網址會與後端連動-->
+    <button type="submit">送出</button>
+    <hr>
+
+    <label for="email">Email:&nbsp</label>
+    <input type="email" id="email" name="email" placeholder="請輸入Email" required><br>
+
+    <p>
+        <label for="content"> 請輸入寶貴意見:</label><br>
+        <textarea name="content" id="content" placeholder="建議"></textarea><br>
+        <button type="submit">送出</button>&nbsp<button type="submit">清除</button>
+    </p>
+
+</form>
 
 
 
