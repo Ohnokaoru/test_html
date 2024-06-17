@@ -15,6 +15,10 @@
             margin: 10px;
             padding: 10px;
             text-align: center;
+            border-radius: 15px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
         }
 
         body {
@@ -150,6 +154,7 @@
 </head>
 
 
+
 <body>
     <!-- div id="container" 可直接簡寫為#container -->
     <div id="container">
@@ -193,6 +198,26 @@
             <img class="image" src="img/anastase-maragos-9dzWZQWZMdE-unsplash.jpg" alt="">
         </div>
         <hr>
+        <!-- div+class 複數標題 -->
+        <div class="sub-title">健身的10個好處</div>
+        <ol type="a"><!--a:英文 i:羅馬符號 1:數字-->
+            <li>增加基礎代謝率</li>
+            <li>預防疾病和提高免疫力</li>
+            <li>改善心情</li>
+            <li>改善睡眠</li>
+            <li>增加自信</li>
+            <li>增強記憶力</li>
+            <li>增強心肺能力</li>
+            <li>提升睡眠品質</li>
+            <li>釋放工作的壓力</li>
+            <li>增加肌肉助於減肥</li>
+        </ol>
+        <!--本地folder圖-->
+        <div id="pic">
+            <img class="image" src="img/anastase-maragos-7kEpUPB8vNk-unsplash.jpg" alt="">
+            <img class="image" src="img/anastase-maragos-9dzWZQWZMdE-unsplash.jpg" alt="">
+        </div>
+        <hr>
 
         <div class="sub-title">健身初學者必看！10個常見的健身迷思</div>
         <ul>
@@ -208,7 +233,22 @@
         </ul>
         <small><a target="_blank"
                 href="https://www.fe-amart.com.tw/index.php/life-style/life-info/secret-recipe/hero-6">引用網址</a></small>
+        <div class="sub-title">健身初學者必看！10個常見的健身迷思</div>
+        <ul>
+            <li><!--另開新視窗，target="_blank"-->
+                <a target="_blank"
+                    href="https://www.fe-amart.com.tw/index.php/life-style/life-info/secret-recipe/hero-9">
+                    非做不可！健身前都該做的簡單暖身運動</a>
+            </li>
+            <li>
+                <a href="https://www.fe-amart.com.tw/index.php/life-style/theme/fehospital-training">
+                    運動防護體能訓練指南：立即提升你的運動表現</a>
+            </li>
+        </ul>
+        <small><a target="_blank"
+                href="https://www.fe-amart.com.tw/index.php/life-style/life-info/secret-recipe/hero-6">引用網址</a></small>
 
+        <hr>
         <hr>
 
         <div class="sub-title">一天所需卡路里</div>
@@ -227,14 +267,46 @@
                     <td>35大卡 X 目前體重（公斤）</td>
                     <td>30大卡 X 目前體重（公斤）</td>
                     <td>20~25大卡 X 目前體重（公斤）</td>
+                    <div class="sub-title">一天所需卡路里</div>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>每天活動量</th>
+                                <th>體重過輕者所需熱量</th>
+                                <th>體重正常者所需熱量</th>
+                                <th>體重過重、肥胖者所需熱量</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>輕度工作</td>
+                                <td>35大卡 X 目前體重（公斤）</td>
+                                <td>30大卡 X 目前體重（公斤）</td>
+                                <td>20~25大卡 X 目前體重（公斤）</td>
 
-                </tr>
-                <tr>
-                    <td>中度工作</td>
-                    <td>40大卡 X 目前體重（公斤）</td>
-                    <td>35大卡 X 目前體重（公斤）</td>
-                    <td>30大卡 X 目前體重（公斤）</td>
+                            </tr>
+                            <tr>
+                                <td>中度工作</td>
+                                <td>40大卡 X 目前體重（公斤）</td>
+                                <td>35大卡 X 目前體重（公斤）</td>
+                                <td>30大卡 X 目前體重（公斤）</td>
+                            </tr>
+                            <tr>
+                                <td>中度工作</td>
+                                <td>40大卡 X 目前體重（公斤）</td>
+                                <td>35大卡 X 目前體重（公斤）</td>
+                                <td>30大卡 X 目前體重（公斤）</td>
 
+                            </tr>
+                            <tr>
+                                <td>重度工作</td>
+                                <td>45大卡 X 目前體重（公斤）</td>
+                                <td>40大卡 X 目前體重（公斤）</td>
+                                <td>35大卡 X 目前體重（公斤）</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <ul><!--&nbps為空白-->
                 </tr>
                 <tr>
                     <td>重度工作</td>
@@ -250,7 +322,31 @@
             </li>
             <li><b>計算所需熱量</b>:&nbsp因他的工作為坐辦公室，屬輕量工作，每天攝取熱量應在1300至1625大卡之間(=20~25大卡*65公斤)。</li>
         </ul>
+        <li><b><u><a href="bmi.html">計算BMI</a></u></b>:&nbsp一位民眾身高160公分，體重65公斤，BMI25.4kg/m2(=65÷1.6÷1.6)，體重屬於「過重」。
+        </li>
+        <li><b>計算所需熱量</b>:&nbsp因他的工作為坐辦公室，屬輕量工作，每天攝取熱量應在1300至1625大卡之間(=20~25大卡*65公斤)。</li>
+        </ul>
 
+        <hr>
+        <div class="sub-title">youtube健身影片</div>
+        <!--直接右鍵，選擇嵌入程式原始碼-->
+        <div id="iframe">
+            <iframe width="45%" height="313" src="https://www.youtube.com/embed/JaRRNavJXOE"
+                title="【一夜爆紅】30分鐘暴汗健身操，高效燃脂，排毒養顏，專瘦大肚子，7天狂減16斤！ㅣ瘦身ㅣ暴汗ㅣ減肥ㅣ姐妹花健身廣場舞團" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="45%" height="313" src="https://www.youtube.com/embed/R0C-S9ZOhzE"
+                title="【詳解健身器材對應部位】健身房全身訓練大全│健人訓練│ 2019ep51" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div id="video">
+            <!--自動播放:controls-->
+            <video width="85%" controls src="video/SampleVideo_1280x720_1mb.mp4"></video>
+        </div>
+
+        <hr>
+        <img width="100%" src="img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg" alt="">
         <hr>
         <div class="sub-title">youtube健身影片</div>
         <!--直接右鍵，選擇嵌入程式原始碼-->
@@ -281,18 +377,45 @@
                     <!--label的for指向input的id(前端用)，name(後端用)-->
                     <label for="username"><b>帳號:&nbsp</b></label>
                     <input type="text" id="username" name="username"><br>
+                    <hr>
+                    <!--form預設為get-->
+                    <div class="sub-title">表單填寫</div>
+                    <div id="post-from">
+                        <div class="username-from">
+                            <form action="" method="get">
+                                <!--label的for指向input的id(前端用)，name(後端用)-->
+                                <label for="username"><b>帳號:&nbsp</b></label>
+                                <input type="text" id="username" name="username"><br>
 
-                    <label for="password"><b>密碼:&nbsp</b></label>
-                    <input type="password" id="password" name="password"><br>
+                                <label for="password"><b>密碼:&nbsp</b></label>
+                                <input type="password" id="password" name="password"><br>
+                                <label for="password"><b>密碼:&nbsp</b></label>
+                                <input type="password" id="password" name="password"><br>
 
-                    <!--提交的按鈕，get:網址會出現對應的字，post:網址會與後端連動-->
-                    <button type="submit">送出</button>
-            </div>
-            <hr>
-            <div class="email-from">
-                <label for="email">Email:&nbsp</label>
-                <input type="email" id="email" name="email" placeholder="請輸入Email" required><br>
+                                <!--提交的按鈕，get:網址會出現對應的字，post:網址會與後端連動-->
+                                <button type="submit">送出</button>
+                        </div>
+                        <hr>
+                        <div class="email-from">
+                            <label for="email">Email:&nbsp</label>
+                            <input type="email" id="email" name="email" placeholder="請輸入Email" required><br>
+                            <!--提交的按鈕，get:網址會出現對應的字，post:網址會與後端連動-->
+                            <button type="submit">送出</button>
+                        </div>
+                        <hr>
+                        <div class="email-from">
+                            <label for="email">Email:&nbsp</label>
+                            <input type="email" id="email" name="email" placeholder="請輸入Email" required><br>
 
+                            <p>
+                                <label for="content"> <b>請輸入寶貴意見:</b></label><br>
+                                <textarea name="content" id="content" placeholder="建議"></textarea><br>
+                                <button type="submit">送出</button>&nbsp<button
+                                    style="background-color: rgb(238, 145, 117);" type="reset">清除</button>
+                            </p>
+                        </div>
+                    </div>
+                </form>
                 <p>
                     <label for="content"> <b>請輸入寶貴意見:</b></label><br>
                     <textarea name="content" id="content" placeholder="建議"></textarea><br>
@@ -305,6 +428,8 @@
 
 
     </div>
+</body>
+</div>
 </body>
 
 </html>
