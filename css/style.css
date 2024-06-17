@@ -1,0 +1,62 @@
+body {
+    background-image: url("../img/carl-barcelo-nqUHQkuVj3c-unsplash.jpg");
+    background-size: contain;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+    /* 1rem = 16px */
+    font-size: 2rem;
+    background-color: #5A639C;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#container {
+    padding: 1rem;
+}
+#post-from {
+    text-align: center;
+}
+
+.username-from {
+    
+    /* 背景用自己抓的圖 */
+    background-image: url("../img/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+    background-size: cover;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: #9f969f solid;
+    width: 300px;
+    margin: auto;
+    color: rgb(200, 86, 86);
+}
+
+.email-from {
+    background-color: #e7aec5;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: #9f969f solid;
+    width: 300px;
+    margin: auto;
+}
+
+button {
+    margin: 10px;
+    border-radius: 10px;
+    width: 3rem;
+}
+
+a {
+    color: black;
+}
+
+/* 游標移到a連結的顏色 */
+a:hover {
+    color: white;
+}
