@@ -13,6 +13,7 @@
     </style>
     <!-- link css 引用外部css -->
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
@@ -30,15 +31,17 @@
 
                 <label for="weight">體重:&nbsp</label>
                 <input type="number" step="0.1" id="weight" name="weight" required><br>
-                <p>
-                    <button type="submit">送出</button> &nbsp; <button style="background-color: rgb(238, 145, 117);"
-                        type="reset">清除</button>
+
+                <!-- type=sumit才會提交到後端，目前暫時不用 -->
+                <button onclick="calcBmi()" type="button">送出</button> &nbsp; <button
+                    style="background-color: rgb(238, 145, 117);" type="reset">清除</button>
                 </p>
 
             </form>
         </div>
     </div>
     <a href="index.html">返回首頁</a>
+    <script src="./js/bmi.js"></script>
 </body>
 
 </html>
