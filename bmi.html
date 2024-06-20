@@ -10,6 +10,24 @@
             /* 內部style要強壓過外部css，需加 !important */
             background: #cfadbb !important;
         }
+
+        #bmi {
+            font-size: 1.5rem;
+            color: rgb(244, 185, 98);
+        }
+
+        #comment {
+            font-size: 1rem;
+            color: rgb(244, 185, 98);
+        }
+
+        #result {
+            width: 65%;
+            background-color: rgb(121, 110, 110);
+            text-align: center;
+            margin: auto;
+            border-radius: 5px;
+        }
     </style>
     <!-- link css 引用外部css -->
     <link rel="stylesheet" href="./css/style.css">
@@ -34,9 +52,12 @@
 
                 <!-- type=sumit才會提交到後端，目前暫時不用 -->
                 <button onclick="calcBmi()" type="button">送出</button> &nbsp; <button
-                    style="background-color: rgb(238, 145, 117);" type="reset">清除</button>
+                    style="background-color: rgb(238, 145, 117);" onclick="getCls()" type="reset">清除</button>
                 </p>
-
+                <div id="result">
+                    <div id="bmi">BMI</div>
+                    <div id="comment">評語</div>
+                </div>
             </form>
         </div>
     </div>
